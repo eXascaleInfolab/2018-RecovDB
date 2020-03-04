@@ -73,7 +73,7 @@ ___
 
 
 ``` sql
-Replace "PATH" in decomp_udf.sql by the absolute path
+Replace "PATH" in decomp_udf.sql by the current path of the cloned folder
 ```
 
 
@@ -87,7 +87,7 @@ sql> \q
 
 
 ``` sql
-Replace "PATH" in recov_udf.sql by the absolute path
+Replace "PATH" in recov_udf.sql by the current path of the cloned folder
 ```
 
 
