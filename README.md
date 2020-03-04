@@ -1,6 +1,6 @@
 # RecovDB: Recovery of missing values in MonetDB
 
-## Installation
+## Prerequisities and dependencies
 
 ### MonetDB (macOS)
 
@@ -67,7 +67,7 @@ $ ./createdb.sh
 ```
 ___
 
-## Usage
+## Execution
 
 ### Matrix decomposition
 
