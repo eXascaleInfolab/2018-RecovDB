@@ -51,7 +51,7 @@ $ sudo shutdown -r now
 ```
 ___
 
-## Getting started
+## DB creation
 
 
 ``` bash 
