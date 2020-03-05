@@ -60,7 +60,7 @@ $ vim ~/.monetdb
 user=monetdb
 password=monetdb
 ```
-
+Run the following script inside the cloned folder
 
 ``` bash 
 $ ./createdb.sh
