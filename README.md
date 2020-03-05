@@ -69,31 +69,31 @@ ___
 
 ## Execution
 
-### Matrix decomposition
+### Recovery of missing values inside MonetDB
 
 
 ``` sql
-Replace "PATH" in decomp_udf.sql by the current path of the cloned folder
-```
-
-
-``` bash
-$ ./connectdb.sh
-sql> \<./decomp_udf.sql
-sql> \q
-```
-
-### Recovery of missing values
-
-
-``` sql
-Replace "PATH" in recov_udf.sql by the current path of the cloned folder
+Replace "PATH" in recov_udf.sql by the absolute path of the current folder
 ```
 
 
 ``` bash
 $ ./connectdb.sh
 sql> \<./recov_udf.sql
+sql> \q
+```
+
+### Centroid Decomposition inside MonetDB
+
+
+``` sql
+Replace "PATH" in decomp_udf.sql by the absolute path of the current folder
+```
+
+
+``` bash
+$ ./connectdb.sh
+sql> \<./decomp_udf.sql
 sql> \q
 ```
 ___
