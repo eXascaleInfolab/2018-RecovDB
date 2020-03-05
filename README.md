@@ -96,10 +96,13 @@ $ ./connectdb.sh
 sql> \<./decomp_udf.sql
 sql> \q
 ```
+
+### Graphical RecovDB
+
+RecovDB is also avilable as a GUI [here](http://revival.exascale.info/recovery/recovdb.php).
 ___
 
 ## Citation
-A GUI of RecovDB is available [here](http://revival.exascale.info/recovery/recovdb.php).
 
 Please cite the following paper when using RecovDB:
 ``` bash
