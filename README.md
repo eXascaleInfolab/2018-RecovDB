@@ -99,7 +99,7 @@ sql> \q
 ___
 
 ## Citation
-A demo of RecovDB is available [here](http://revival.exascale.info/recovery/recovdb.php).
+A GUI of RecovDB is available [here](http://revival.exascale.info/recovery/recovdb.php).
 
 Please cite the following paper when using RecovDB:
 ``` bash
