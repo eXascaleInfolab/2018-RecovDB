@@ -1,4 +1,4 @@
-# RecovDB: Recovery of missing values in MonetDB
+# RecovDB: Recovery of missing values inside MonetDB
 
 ## Prerequisities and dependencies
 
