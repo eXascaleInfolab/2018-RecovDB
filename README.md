@@ -69,7 +69,7 @@ ___
 
 ## Execution
 
-### Recovery of missing values inside MonetDB
+### Recovery of missing values in time series
 
 
 ``` sql
@@ -83,7 +83,7 @@ sql> \<./recov_udf.sql
 sql> \q
 ```
 
-### Centroid Decomposition inside MonetDB
+### Centroid Decomposition of time series
 
 
 ``` sql
