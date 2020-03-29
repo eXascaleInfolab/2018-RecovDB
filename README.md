@@ -4,9 +4,23 @@
 
 ### MonetDB (macOS)
 
+#### Installation
 ``` bash 
 $ brew install monetdb
 $ pip3 install numpy
+```
+
+#### Python configuration
+
+- Install Anaconda2 from: https://docs.anaconda.com/anaconda/install/ in your 'HOME' folder
+
+- Add the following line to (.profile or .bash_profile on macOS, .bashrc on Linux):
+ `export PYTHONPATH="${PYTHONPATH}:'HOME'/anaconda2/lib/python2.7/site-packages/"`
+
+- Execute and restart:
+``` bash 
+$ source .profile (or source bash_profile)
+$ sudo shutdown -r now
 ```
 
 ### MonetDB (Debian/Ubuntu)
@@ -26,18 +40,7 @@ $ make install
 $ sudo apt install monetdb-client
 ```
 
-### Python configuration
 
-- Install Anaconda2 from: https://docs.anaconda.com/anaconda/install/ in your 'HOME' folder
-
-- Add the following line to (.profile or .bash_profile on macOS, .bashrc on Linux):
- `export PYTHONPATH="${PYTHONPATH}:'HOME'/anaconda2/lib/python2.7/site-packages/"`
-
-- Execute and restart:
-``` bash 
-$ source .profile (or source bash_profile)
-$ sudo shutdown -r now
-```
 ___
 
 ## DB creation
