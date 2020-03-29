@@ -6,6 +6,7 @@
 
 ``` bash 
 $ brew install monetdb
+$ pip3 install numpy
 ```
 
 ### MonetDB (Debian/Ubuntu)
@@ -14,7 +15,7 @@ $ brew install monetdb
 
 2. Download the latest monetdb source from: https://www.monetdb.org/downloads/sources/Latest/
 
-3. Open README-Debian and install all the packages listed as required. Then, run the following commands: 
+3. Enter the extracted folder, open README-Debian and install all the packages listed as required. Then, run the following commands: 
 
 ``` bash 
 $ sudo apt install libatomic-ops-dev python-dev python-numpy uuid-dev
@@ -25,30 +26,21 @@ $ make install
 $ sudo apt install monetdb-client
 ```
 
-### Python Libraries
+### Python configuration
 
+- Install Anaconda2 from: https://docs.anaconda.com/anaconda/install/ in your 'HOME' folder
+
+- Add the following line to (.profile or .bash_profile on macOS, .bashrc on Linux):
+ `export PYTHONPATH="${PYTHONPATH}:'HOME'/anaconda2/lib/python2.7/site-packages/"`
+
+- Execute and restart:
 ``` bash 
-$ pip3 install numpy
-```
-
-Install Anaconda2 from: https://docs.anaconda.com/anaconda/install/ into your 'HOME' folder
-
-Path configuration 
-
-``` bash 
-Add this line to (.profile or .bash_profile on macOS, .bashrc on Linux): export PYTHONPATH="${PYTHONPATH}:'HOME'/anaconda2/lib/python2.7/site-packages/"
 $ source .profile (or source bash_profile)
-```
- 
-Restart your PC:
-
-``` bash 
 $ sudo shutdown -r now
 ```
 ___
 
 ## DB creation
-
 
 ``` bash 
 $ touch ~/.monetdb
@@ -57,7 +49,6 @@ user=monetdb
 password=monetdb
 ```
 Run the following script inside the cloned folder
-
 ``` bash 
 $ ./createdb.sh
 ```
