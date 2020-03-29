@@ -14,7 +14,7 @@ $ brew install monetdb
 
 2. Download the latest monetdb source from: https://www.monetdb.org/downloads/sources/Latest/
 
-3. Extract and enter MonetDB-default/ directory with the sources. Open README-Debian and install all the packages listed as obligatory dependencies. In addition, install the following optional dependencies:
+3. Enter the extracted folder, open README-Debian and install all the packages listed as obligatory dependencies. Then, run the following commands: 
 
 ``` bash 
 $ sudo apt install libatomic-ops-dev python-dev python-numpy uuid-dev
