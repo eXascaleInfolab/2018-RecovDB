@@ -59,11 +59,6 @@ sql> \q
 ### Centroid Decomposition of time series
 
 
-``` sql
-Replace "PATH" in decomp_udf.sql by the absolute path of the current folder
-```
-
-
 ``` bash
 $ sh connectdb.sh
 sql> \<./decomp_udf.sql
