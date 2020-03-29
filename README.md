@@ -9,6 +9,7 @@
 $ brew install monetdb
 $ pip3 install numpy
 $ sh db_init
+$ sh createdb.sh
 ```
 
 #### Python configuration
@@ -36,7 +37,7 @@ ___
 $ sh monetdb_install.sh
 $ sh db_init
 $ sh createdb.sh
-
+```
 ___
 
 
