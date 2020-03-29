@@ -35,5 +35,5 @@ CREATE FUNCTION centroid_decomposition(x1 float, x2 float, x3 float, x4 float) R
 
 DROP TABLE time_series;
 CREATE TABLE time_series(x1 float, x2 float, x3 float, x4 float);
-COPY 20 RECORDS INTO time_series FROM 'HOME/recovery/src/incomplete.txt' USING DELIMITERS ',','\n' NULL AS '';
+COPY 20 RECORDS INTO time_series FROM 'PATH/recovery/src/incomplete.txt' USING DELIMITERS ',','\n' NULL AS '';
 SELECT centroid_decomposition(x1, x2, x3, x4) AS result FROM time_series;
