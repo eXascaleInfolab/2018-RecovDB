@@ -26,9 +26,9 @@ $ make install
 $ sudo apt install monetdb-client
 ```
 
-### Python Configuration
+### Python configuration
 
-- Install Anaconda2 from: https://docs.anaconda.com/anaconda/install/ into your 'HOME' folder
+- Install Anaconda2 from: https://docs.anaconda.com/anaconda/install/ in your 'HOME' folder
 
 - Add the following line to (.profile or .bash_profile on macOS, .bashrc on Linux):
  `export PYTHONPATH="${PYTHONPATH}:'HOME'/anaconda2/lib/python2.7/site-packages/"`
@@ -42,7 +42,6 @@ ___
 
 ## DB creation
 
-
 ``` bash 
 $ touch ~/.monetdb
 $ vim ~/.monetdb
@@ -50,7 +49,6 @@ user=monetdb
 password=monetdb
 ```
 Run the following script inside the cloned folder
-
 ``` bash 
 $ ./createdb.sh
 ```
