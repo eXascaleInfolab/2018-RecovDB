@@ -62,11 +62,6 @@ ___
 ### Recovery of missing values in time series
 
 
-``` sql
-Replace "PATH" in recov_udf.sql by the absolute path of the current folder
-```
-
-
 ``` bash
 $ ./connectdb.sh
 sql> \<./recov_udf.sql
