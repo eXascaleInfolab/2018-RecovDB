@@ -9,6 +9,7 @@ Created on Sat Aug  4 13:06:44 2018
 import numpy as np
 import time
 from numpy import linalg as LA
+#import xrange
 #from scipy import stats
 
 # Calculate maximizing sign vector z
@@ -172,7 +173,7 @@ def recovery(input_matrix,n,m,trunc_col,perc,col_drop):
    nans, index0,index1= nan_helper(X_tilde)
    missing_rows=index0(nans)
    missing_cols=index1(nans)
-   for i in xrange(0, m):
+   for i in range(0, m):
        X_tilde = linear_interpolated_base_series_values(X_tilde, i, n);
 
    #recovery of missing values
