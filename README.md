@@ -6,6 +6,7 @@
 
 ``` bash 
 $ brew install monetdb
+$  pip3 install numpy
 ```
 
 ### MonetDB (Debian/Ubuntu)
@@ -25,24 +26,13 @@ $ make install
 $ sudo apt install monetdb-client
 ```
 
-### Python Libraries
+### Python Configuration
 
-``` bash 
-$ pip3 install numpy
-```
-
-Install Anaconda2 from: https://docs.anaconda.com/anaconda/install/ into your 'HOME' folder
-
-Path configuration 
+Install Anaconda2 from: https://docs.anaconda.com/anaconda/install/ into your 'HOME' folder and do the following
 
 ``` bash 
 Add this line to (.profile or .bash_profile on macOS, .bashrc on Linux): export PYTHONPATH="${PYTHONPATH}:'HOME'/anaconda2/lib/python2.7/site-packages/"
 $ source .profile (or source bash_profile)
-```
- 
-Restart your PC:
-
-``` bash 
 $ sudo shutdown -r now
 ```
 ___
