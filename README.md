@@ -48,7 +48,7 @@ ___
 
 ## Execution
 
-### Recovery of missing values in time series
+### Recovery of missing values in time series data
 
 
 ``` bash
@@ -57,7 +57,7 @@ sql> \<./recov_udf.sql
 sql> \q
 ```
 
-### Centroid Decomposition of time series
+### Centroid Decomposition of time series data
 
 
 ``` bash
