@@ -31,7 +31,7 @@ $ sudo apt install monetdb-client
 - Install Anaconda2 from: https://docs.anaconda.com/anaconda/install/ into your 'HOME' folder
 
 - Add the following line to (.profile or .bash_profile on macOS, .bashrc on Linux):
- export PYTHONPATH="${PYTHONPATH}:'HOME'/anaconda2/lib/python2.7/site-packages/"
+ `export PYTHONPATH="${PYTHONPATH}:'HOME'/anaconda2/lib/python2.7/site-packages/"`
 
 - Execute and restart:
 ``` bash 
