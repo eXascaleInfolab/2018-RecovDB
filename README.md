@@ -9,7 +9,7 @@
 $ brew install monetdb
 $ pip3 install numpy
 $ git clone https://github.com/eXascaleInfolab/2018-RecovDB.git recovdb
-$ cd recovdb
+$ cd recovdb/
 $ sh /db/db_init.sh
 $ sh /db/createdb.sh
 ```
@@ -38,7 +38,7 @@ ___
 ``` bash 
 $ sh monetdb_install.sh
 $ git clone https://github.com/eXascaleInfolab/2018-RecovDB.git recovdb
-$ cd recovdb
+$ cd recovdb/
 $ sh /db/db_init.sh
 $ sh /db/createdb.sh
 ```
