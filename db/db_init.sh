@@ -1,4 +1,4 @@
-touch ~/.monetdb
+sudo touch ~/.monetdb
 echo 'user=monetdb' >> ~/.monetdb
 echo 'password=monetdb' >> ~/.monetdb
 
