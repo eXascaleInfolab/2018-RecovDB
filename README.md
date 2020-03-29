@@ -33,7 +33,7 @@ $ sudo shutdown -r now
 ___
 
 
-### MonetDB (Debian/Ubuntu)
+### MonetDB (Ubuntu/Debian)
 
 
 ``` bash 
