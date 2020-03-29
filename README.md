@@ -47,7 +47,7 @@ ___
 
 
 ``` bash
-$ ./connectdb.sh
+$ sh connectdb.sh
 sql> \<./recov_udf.sql
 sql> \q
 ```
@@ -61,7 +61,7 @@ Replace "PATH" in decomp_udf.sql by the absolute path of the current folder
 
 
 ``` bash
-$ ./connectdb.sh
+$ sh connectdb.sh
 sql> \<./decomp_udf.sql
 sql> \q
 ```
