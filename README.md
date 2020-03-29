@@ -11,7 +11,7 @@ $ pip3 install numpy
 $ git clone https://github.com/eXascaleInfolab/2018-RecovDB.git recovdb
 $ cd recovdb/
 $ sh /db/db_init.sh
-$ sh /db/createdb.sh
+$ sh createdb.sh
 ```
 
 #### Python configuration
@@ -36,11 +36,11 @@ ___
 
 
 ``` bash 
-$ sh monetdb_install.sh
+$ sh /db/monetdb_install.sh
 $ git clone https://github.com/eXascaleInfolab/2018-RecovDB.git recovdb
 $ cd recovdb/
 $ sh /db/db_init.sh
-$ sh /db/createdb.sh
+$ sh createdb.sh
 ```
 ___
 
