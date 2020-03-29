@@ -36,9 +36,9 @@ ___
 
 
 ``` bash 
-$ sh /db/monetdb_install.sh
 $ git clone https://github.com/eXascaleInfolab/2018-RecovDB.git recovdb
 $ cd recovdb/
+$ sh /db/monetdb_install.sh
 $ sh /db/db_init.sh
 $ sh createdb.sh
 ```
