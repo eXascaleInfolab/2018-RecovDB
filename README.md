@@ -18,7 +18,7 @@ $ sh createdb.sh
 
 - Install Anaconda2 from: https://docs.anaconda.com/anaconda/install/ in your 'HOME' folder
 
-- Add the following line to (.profile or .bash_profile on macOS, .bashrc on Linux):
+- Add the following line to (.profile or .bash_profile):
  `export PYTHONPATH="${PYTHONPATH}:'HOME'/anaconda2/lib/python2.7/site-packages/"`
 
 - Execute and restart:
