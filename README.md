@@ -10,11 +10,10 @@ $ brew install monetdb
 
 ### MonetDB (Debian/Ubuntu)
 
-1. Follow the steps https://www.monetdb.org/downloads/deb/ until `sudo apt update`.
-
-2. Instead of installing `monetdb5-sql` and `monetdb-client` build from sources (point 3).
+1. Follow the steps https://www.monetdb.org/downloads/deb/ until `sudo apt update`. Instead of installing `monetdb5-sql` and `monetdb-client` build from sources (point 3).
 In case any of those is installed, you can delete it using `sudo apt purge monetdb5-sql`.
-Download latest source from: https://www.monetdb.org/downloads/sources/Latest/
+
+2. Download latest source from: https://www.monetdb.org/downloads/sources/Latest/
 
 3. Extract and enter MonetDB-default/ directory with the sources. Open README-Debian and install all the packages listed as obligatory dependencies. In addition install the following optional dependencies:
 
