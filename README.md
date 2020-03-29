@@ -8,6 +8,7 @@
 ``` bash 
 $ brew install monetdb
 $ pip3 install numpy
+$ sh db_init
 ```
 
 #### Python configuration
@@ -23,39 +24,21 @@ $ source .profile (or source bash_profile)
 $ sudo shutdown -r now
 ```
 
+
+
+___
+
+
 ### MonetDB (Debian/Ubuntu)
 
-1. Follow the steps in https://www.monetdb.org/downloads/deb/ until `sudo apt update`. In case you have installed `monetdb5-sql` and/or `monetdb-client`, delete it using `sudo apt purge monetdb5-sql`.
-
-2. Download the latest monetdb source from: https://www.monetdb.org/downloads/sources/Latest/
-
-3. Enter the extracted folder, open README-Debian and install all the packages listed as required. Then, run the following commands: 
 
 ``` bash 
-$ sudo apt install libatomic-ops-dev python-dev python-numpy uuid-dev
-$ ./bootstrap
-$ ./configure --enable-pyintegration
-$ make
-$ make install
-$ sudo apt install monetdb-client
-```
-
+$ sh monetdb_install.sh
+$ sh db_init
+$ sh createdb.sh
 
 ___
 
-## DB creation
-
-``` bash 
-$ touch ~/.monetdb
-$ vim ~/.monetdb
-user=monetdb
-password=monetdb
-```
-Run the following script inside the cloned folder
-``` bash 
-$ ./createdb.sh
-```
-___
 
 ## Execution
 
