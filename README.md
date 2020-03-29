@@ -12,12 +12,11 @@ $ brew install monetdb
 
 1. Follow the steps https://www.monetdb.org/downloads/deb/ until `sudo apt update`.
 
-Instead of installing `monetdb5-sql` and `monetdb-client` build from sources (step 2).
-If any of those are installed, do `sudo apt purge monetdb5-sql`.
+2. Instead of installing `monetdb5-sql` and `monetdb-client` build from sources (point 3).
+In case any of those is installed, you can delete it using `sudo apt purge monetdb5-sql`.
 Download latest source from: https://www.monetdb.org/downloads/sources/Latest/
 
-
-Extract and enter MonetDB-default/ directory with the sources. Open README-Debian and install all the packages listed as obligatory dependencies. In addition install the following optional dependencies:
+3. Extract and enter MonetDB-default/ directory with the sources. Open README-Debian and install all the packages listed as obligatory dependencies. In addition install the following optional dependencies:
 
 ``` bash 
 $ sudo apt install libatomic-ops-dev python-dev python-numpy uuid-dev
