@@ -5,6 +5,7 @@ wget --output-document=- https://www.monetdb.org/downloads/MonetDB-GPG-KEY | sud
 sudo apt update
 wget https://www.monetdb.org/downloads/sources/Nov2019-SP3/MonetDB-11.35.19.zip 
 unzip MonetDB-11.35.19.zip
+rm -rf MonetDB-11.35.19.zip
 cd MonetDB-11.35.19/
 sudo apt install automake bison gettext libssl-dev libtool libxml2-dev m4 make mercurial pkg-config
 sudo apt install libatomic-ops-dev python-dev python-numpy uuid-dev
