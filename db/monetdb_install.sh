@@ -13,7 +13,5 @@ sudo apt install libatomic-ops-dev python-dev python-numpy uuid-dev
 sudo make
 sudo make install
 sudo apt install monetdb-client
-touch ~/.monetdb
-echo 'user=monetdb' >> ~/.monetdb
-echo 'password=monetdb' >> ~/.monetdb
+
 
