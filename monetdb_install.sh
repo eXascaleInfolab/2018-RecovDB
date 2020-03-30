@@ -5,6 +5,7 @@ echo 'deb-src https://dev.monetdb.org/downloads/deb/ $(lsb_release -cs) monetdb'
 wget --output-document=- https://www.monetdb.org/downloads/MonetDB-GPG-KEY | sudo apt-key add -
 sudo apt update
 wget https://www.monetdb.org/downloads/sources/Nov2019-SP3/MonetDB-11.35.19.zip 
+sudo apt install unzip
 unzip MonetDB-11.35.19.zip
 sudo rm -rf MonetDB-11.35.19.zip
 cd MonetDB-11.35.19/
