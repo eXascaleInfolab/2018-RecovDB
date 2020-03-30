@@ -54,6 +54,7 @@ sql> \q
 
 ### Centroid Decomposition of time series data
 
+We show how to decompose a matrix of time series located in `decomposition/input/climate.csv`
 
 ``` bash
 $ sh connectdb.sh
