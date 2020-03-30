@@ -11,8 +11,6 @@ $ cd recovdb/
 $ sh monetdb_install.sh
 $ sh createdb.sh
 ```
-___
-
 
 ### MonetDB (macOS)
 
