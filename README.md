@@ -62,6 +62,16 @@ sql> \<./decomp_udf.sql
 sql> \q
 ```
 
+### Datasets customization
+
+To add a dataset to the recovery:
+-  Name your file `original.txt` and add it to `recovery/input/`
+- Requirements:  columns= 4, column separator: empty space, row separator: newline
+
+To add a dataset to the decomposition :
+- Name your file `climate.csv` and add it to `decomposition/input/`
+- Requirements:  column separator: empty space, row separator: newline
+
 ### Graphical RecovDB
 
 RecovDB is also avilable as a GUI [here](http://revival.exascale.info/recovery/recovdb.php).
