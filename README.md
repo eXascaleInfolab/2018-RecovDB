@@ -44,6 +44,7 @@ ___
 
 ### Recovery of missing values in time series data
 
+We show how to recover overlapping missing blocks in two climate time series located in `recovery/input/original.txt`
 
 ``` bash
 $ sh connectdb.sh
