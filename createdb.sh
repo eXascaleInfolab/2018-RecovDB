@@ -1,4 +1,11 @@
-#!/bin/bash
+filename=~/.monetdb
+if [ ! -f $filename ]
+then
+    touch $filename
+    echo 'user=monetdb' >> $filename
+    echo 'password=monetdb' >> $filename
+fi
+
 monetdbd stop monetdb_farm
 rm -rf monetdb_farm/
 monetdbd create monetdb_farm
