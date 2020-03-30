@@ -2,15 +2,6 @@
 
 ## Prerequisities and dependencies
 
-### MonetDB (Ubuntu/Debian)
-
-
-``` bash 
-$ git clone https://github.com/eXascaleInfolab/2018-RecovDB.git recovdb
-$ cd recovdb/
-$ sh monetdb_install.sh
-$ sh createdb.sh
-```
 
 ### MonetDB (macOS)
 
@@ -35,6 +26,16 @@ $ sh createdb.sh
 ``` bash 
 $ source .profile (or source bash_profile)
 $ sudo shutdown -r now
+```
+
+### MonetDB (Ubuntu/Debian)
+
+
+``` bash 
+$ git clone https://github.com/eXascaleInfolab/2018-RecovDB.git recovdb
+$ cd recovdb/
+$ sh monetdb_install.sh
+$ sh createdb.sh
 ```
 ___
 
