@@ -9,12 +9,15 @@ sudo apt install unzip
 unzip MonetDB-11.35.19.zip
 sudo rm -rf MonetDB-11.35.19.zip
 cd MonetDB-11.35.19/
+echo "installing dependencies..."
 sudo apt install automake bison gettext libssl-dev libtool libxml2-dev m4 make mercurial pkg-config
 sudo apt install libatomic-ops-dev python-dev python-numpy uuid-dev
 ./bootstrap
 ./configure --enable-pyintegration
 sudo make
 sudo make install
+echo "installing monetdb client..."
 sudo apt install monetdb-client
+ 
 
 
