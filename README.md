@@ -19,14 +19,13 @@ $ sh createdb.sh
 - Enter the cloned repo and run the following commands
 
 
-#### Installation
 ``` bash 
 $ brew install monetdb
 $ pip3 install numpy
 $ sh createdb.sh
 ```
 
-#### Python Configuration
+#### Python Path Configuration
 
 - Install Anaconda2 from: https://docs.anaconda.com/anaconda/install/ in your 'HOME' folder
 
