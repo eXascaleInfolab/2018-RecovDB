@@ -50,6 +50,7 @@ We show how to recover overlapping missing blocks in two climate time series loc
 
 ``` bash
 $ sh connectdb.sh
+$ sh mclient -u monetdb -d testdb -p monetdb
 sql> \<./recov_udf.sql
 sql> \q
 ```
