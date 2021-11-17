@@ -3,8 +3,10 @@
 ## Prerequisities 
 
 - Clone this repository
-- Enter the cloned repo
-### MonetDB (Ubuntu/Debian)
+
+### UDF Configuration (Ubuntu/Debian)
+
+- Enter the cloned repo and run the following commands
 
 
 ``` bash 
@@ -12,7 +14,10 @@ $ sh monetdb_install.sh
 $ sh createdb.sh
 ```
 
-### MonetDB (macOS)
+### UDF Configuration (macOS)
+
+- Enter the cloned repo and run the following commands
+
 
 #### Installation
 ``` bash 
@@ -21,7 +26,7 @@ $ pip3 install numpy
 $ sh createdb.sh
 ```
 
-#### Python configuration
+#### Python Configuration
 
 - Install Anaconda2 from: https://docs.anaconda.com/anaconda/install/ in your 'HOME' folder
 
@@ -34,7 +39,6 @@ $ sh createdb.sh
 $ source .profile (or source bash_profile)
 $ sudo shutdown -r now
 ```
-
 
 ___
 
