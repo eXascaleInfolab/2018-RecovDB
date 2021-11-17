@@ -2,7 +2,7 @@
 
 ## Prerequisities 
 
-- clone this repository
+- Clone this repository
 - Enter the cloned repo
 ### MonetDB (Ubuntu/Debian)
 
