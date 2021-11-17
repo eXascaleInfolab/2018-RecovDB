@@ -28,7 +28,7 @@ $ sh createdb.sh
 
 - You might also need to configure the Python path: 
 
-  - Install Anaconda2 from: https://docs.anaconda.com/anaconda/install/ in your 'HOME' folder
+  - Install Anaconda2 from: https://docs.anaconda.com/anaconda/install/ onto your 'HOME' folder
 
   - Add the following line to (.profile or .bash_profile): `export PYTHONPATH="${PYTHONPATH}:'HOME'/anaconda2/lib/python2.7/site-packages/"`
 
