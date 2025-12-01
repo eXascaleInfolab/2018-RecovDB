@@ -1,11 +1,6 @@
-# RecovDB: Recovery of missing values inside MonetDB
+# RecovDB: Time series data cleaning inside MonetDB
 
-## Prerequisities 
 
-- Clone this repository
-- Enter the cloned repo and run the following commands
-
-___
 ## UDF Configuration
 
 ### Ubuntu/Debian
@@ -43,9 +38,9 @@ ___
 
 ## Execution
 
-### Recovery of missing values in time series data
+### Recovery of missing values inside MonetDB
 
-We show how to recover overlapping missing blocks in two climate time series located in `recovery/input/original.txt`
+To impute overlapping missing blocks in two climate time series located in `recovery/input/original.txt`, run the following
 
 ``` bash
 $ sh connectdb.sh
@@ -53,9 +48,9 @@ sql> \<./recov_udf.sql
 sql> \q
 ```
 
-### Centroid Decomposition of time series data
+### Time series decomposition  inside MonetDB
 
-We show how to decompose a matrix of time series located in `decomposition/input/climate.csv`
+To decompose a matrix of time series located in `decomposition/input/climate.csv`
 
 ``` bash
 $ sh connectdb.sh
@@ -63,19 +58,31 @@ sql> \<./decomp_udf.sql
 sql> \q
 ```
 
-### Datasets customization
+___
 
-To add a dataset to the recovery:
--  Name your file `original.txt` and add it to `recovery/input/`
+## Customization
+
+To add a dataset to the imputation:
+- Name your file `original.txt` and add it to `recovery/input/`
 - Requirements:  columns= 4, column separator: empty space, row separator: newline
 
-To add a dataset to the decomposition :
+To add a dataset to the decomposition:
 - Name your file `climate.csv` and add it to `decomposition/input/`
 - Requirements:  column separator: empty space, row separator: newline
 
-### Graphical RecovDB
+___
 
-RecovDB is also avilable as a GUI [here](http://revival.exascale.info/recovery/recovdb.php).
+## Graphical Interface
+
+RecovDB is also available as [GUI](http://revival.exascale.info/recovery/recovdb.php).
+___
+
+
+## Contributors
+
+- Ines Arous
+- [Mourad Khayati](https://mkhayati.github.io)
+
 ___
 
 ## Citation
